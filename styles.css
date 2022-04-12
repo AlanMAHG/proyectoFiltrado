@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(starWarsFondo.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+.cuerpo{
+    font-family: sans-serif;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    
+}
+.contenedorPrincipal{
+    width: 100%;
+    height: 100%;
+}
+.hiddenModal{
+    display: none;
+}
+.styleButton{
+    font-size: .8rem;
+    font-weight: 100;
+    padding: .5rem;
+    margin: .3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+.closeModal {
+    position: absolute;
+    top: 1.2rem;
+    right: 2rem;
+    text-decoration: none;
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.modalType {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    background-color: white;
+    padding: 6rem;
+    border-radius: 5px;
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+.estiloInput{
+    padding: 3px;
+    height: 28px;
+    width: 20%;
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(21,21,21,.2);
+}
+.labelStyle{
+    font-size: .8rem;
+}
+.filtros{
+    border-radius: 14px;
+    background-color: rgba(3, 2, 2, 0.099)
+}
+
+
+
+
+@media screen and (max-width: 390px) {
+    #colorTexto{
+        color: white;
+    }
+    #colorTexto td{
+        color: white;
+    }
+}
+@media screen and (max-width: 690px) {
+    #colorTexto{
+        color: white;
+    }
+    #colorTexto td{
+        color: white;
+    }
+}
+@media screen and (max-width: 1003px) {
+    #colorTexto{
+        color: white;
+    }
+    #colorTexto td{
+        color: white;
+    }
+}
